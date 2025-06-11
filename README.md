@@ -6,7 +6,7 @@ A GNOME Shell extension that provides safe, slider-based control over ThinkPad f
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Fan-Control-Slider.git
+git clone https://github.com/NoXei/Fan-Control-Slider.git
 cd Fan-Control-Slider
 
 # Install everything automatically
@@ -55,7 +55,7 @@ That's it! Look for the fan icon in your top panel. 🌪️
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/your-username/Fan-Control-Slider.git
+git clone https://github.com/NoXei/Fan-Control-Slider.git
 cd Fan-Control-Slider
 ```
 
@@ -78,7 +78,7 @@ If you prefer to install manually:
 #### 1. Extension Setup
 ```bash
 # Clone and navigate to the repository
-git clone https://github.com/your-username/Fan-Control-Slider.git
+git clone https://github.com/NoXei/Fan-Control-Slider.git
 cd Fan-Control-Slider
 
 # Copy extension to GNOME extensions directory

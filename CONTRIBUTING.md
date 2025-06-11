@@ -14,7 +14,7 @@ Thank you for your interest in contributing to this project! 🎉
 
 1. **Fork and clone the repository**:
 ```bash
-git clone https://github.com/your-username/Fan-Control-Slider.git
+git clone https://github.com/NoXei/Fan-Control-Slider.git
 cd Fan-Control-Slider
 ```
 
