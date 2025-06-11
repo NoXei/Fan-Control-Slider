@@ -1,0 +1,62 @@
+/* ThinkPad Fan Control Extension Styles */
+
+.fan-status-item {
+    font-weight: bold;
+}
+
+.temperature-label {
+    font-size: 10pt;
+    margin-left: 4px;
+    color: #ffffff;
+}
+
+.panel-status-menu-box {
+    spacing: 4px;
+}
+
+/* Fan level label */
+.fan-level-label {
+    font-weight: bold;
+    color: #eeeeee;
+}
+
+/* Fan description */
+.fan-description {
+    font-size: 9pt;
+    color: #bbbbbb;
+    font-style: italic;
+}
+
+/* Emergency auto button */
+.emergency-auto-button {
+    background-color: #ff4444 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* Slider labels */
+.slider-label {
+    font-size: 8pt;
+    color: #cccccc;
+    margin: 0 6px;
+}
+
+/* Temperature color coding */
+.temperature-normal {
+    color: #4caf50;
+}
+
+.temperature-warm {
+    color: #ff9800;
+}
+
+.temperature-hot {
+    color: #f44336;
+}
+
+/* Warning styles for preferences */
+.warning {
+    background-color: rgba(255, 193, 7, 0.1);
+    border-left: 3px solid #ffc107;
+    padding-left: 8px;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extension-thinkpad-fan-control">
+  <schema id="org.gnome.shell.extensions.thinkpad-fan-control" path="/org/gnome/shell/extensions/thinkpad-fan-control/">
+    <key name="show-temperature" type="b">
+      <default>true</default>
+      <summary>Show temperature</summary>
+      <description>Whether to show CPU temperature in the indicator</description>
+    </key>
+    <key name="auto-mode-on-suspend" type="b">
+      <default>true</default>
+      <summary>Auto mode on suspend</summary>
+      <description>Automatically switch to auto mode when system suspends</description>
+    </key>
+    <key name="show-notifications" type="b">
+      <default>true</default>
+      <summary>Show notifications</summary>
+      <description>Show notifications when fan mode changes</description>
+    </key>
+  </schema>
+</schemalist>
