@@ -3,7 +3,7 @@
 # ThinkPad Fan Control Extension - Test Script
 # This script verifies that the extension is properly installed and configured
 
-EXTENSION_UUID="thinkpad-fan-control@example.com"
+EXTENSION_UUID="thinkpad-fan-control@noxei.dev"
 EXTENSION_DIR="$HOME/.local/share/gnome-shell/extensions/$EXTENSION_UUID"
 
 echo "🔍 ThinkPad Fan Control Extension - Installation Test"

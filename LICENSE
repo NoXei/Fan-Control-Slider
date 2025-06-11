@@ -1,0 +1,33 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2025 NoXei
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+ThinkPad Fan Control Extension
+==============================
+
+A GNOME Shell extension that provides safe, slider-based control over 
+ThinkPad fan speeds with comprehensive safety features.
+
+IMPORTANT SAFETY NOTICE:
+This software controls hardware thermal management. While designed with 
+safety features, users must understand the risks involved. Always monitor 
+temperatures and use responsibly. The authors are not liable for hardware 
+damage resulting from misuse.
+
+Contact: https://github.com/NoXei/Fan-Control-Slider

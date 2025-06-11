@@ -24,7 +24,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated sudo configuration for better security
 - More restrictive permission handling
 
-## [1.0.0] - 2025-06-11
+## [2.0.0] - 2025-06-11
+
+### Added
+- Comprehensive installation script (`install.sh`)
+- Automated testing script (`test.sh`) 
+- Clean uninstallation script (`uninstall.sh`)
+- Detailed documentation and safety guidelines
+- Contributing guidelines
+- Better error handling and user feedback
+
+### Changed
+- Improved README with clear installation instructions
+- Enhanced safety warnings and documentation
+- Better installation verification process
+- Updated extension UUID to use professional domain (@noxei.dev)
+- Enhanced metadata with proper description and repository URL
+
+### Security
+- Updated sudo configuration for better security
+- More restrictive permission handling
+
+## [1.0.0] - 2025-06-01
 
 ### Added
 - Slider-based fan control interface

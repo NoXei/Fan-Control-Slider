@@ -5,7 +5,7 @@
 
 set -e  # Exit on any error
 
-EXTENSION_UUID="thinkpad-fan-control@example.com"
+EXTENSION_UUID="thinkpad-fan-control@noxei.dev"
 EXTENSION_DIR="$HOME/.local/share/gnome-shell/extensions/$EXTENSION_UUID"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SOURCE_DIR="$SCRIPT_DIR/$EXTENSION_UUID"

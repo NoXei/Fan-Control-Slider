@@ -82,19 +82,19 @@ git clone https://github.com/NoXei/Fan-Control-Slider.git
 cd Fan-Control-Slider
 
 # Copy extension to GNOME extensions directory
-cp -r thinkpad-fan-control@example.com ~/.local/share/gnome-shell/extensions/
+cp -r thinkpad-fan-control@noxei.dev ~/.local/share/gnome-shell/extensions/
 
 # Compile schemas
-glib-compile-schemas ~/.local/share/gnome-shell/extensions/thinkpad-fan-control@example.com/schemas/
+glib-compile-schemas ~/.local/share/gnome-shell/extensions/thinkpad-fan-control@noxei.dev/schemas/
 
 # Enable the extension
-gnome-extensions enable thinkpad-fan-control@example.com
+gnome-extensions enable thinkpad-fan-control@noxei.dev
 ```
 
 #### 2. Security Setup (Required)
 ```bash
 # Run the included setup script for safe sudo configuration
-cd ~/.local/share/gnome-shell/extensions/thinkpad-fan-control@example.com/
+cd ~/.local/share/gnome-shell/extensions/thinkpad-fan-control@noxei.dev/
 chmod +x setup.sh
 ./setup.sh
 ```
@@ -204,7 +204,7 @@ Access via extension menu → Settings:
 - **Fan Control**: `/proc/acpi/ibm/fan`
 - **Temperature**: `/proc/acpi/ibm/thermal`  
 - **Sudo Config**: `/etc/sudoers.d/thinkpad-fan-control`
-- **Extension**: `~/.local/share/gnome-shell/extensions/thinkpad-fan-control@example.com/`
+- **Extension**: `~/.local/share/gnome-shell/extensions/thinkpad-fan-control@noxei.dev/`
 - **Repository**: Cloned to your chosen directory (e.g., `~/Fan-Control-Slider/`)
 
 ### Command Examples
@@ -262,15 +262,15 @@ cd /path/to/Fan-Control-Slider
 ./install.sh
 
 # Or reinstall manually
-rm -rf ~/.local/share/gnome-shell/extensions/thinkpad-fan-control@example.com
-cp -r thinkpad-fan-control@example.com ~/.local/share/gnome-shell/extensions/
-glib-compile-schemas ~/.local/share/gnome-shell/extensions/thinkpad-fan-control@example.com/schemas/
+rm -rf ~/.local/share/gnome-shell/extensions/thinkpad-fan-control@noxei.dev
+cp -r thinkpad-fan-control@noxei.dev ~/.local/share/gnome-shell/extensions/
+glib-compile-schemas ~/.local/share/gnome-shell/extensions/thinkpad-fan-control@noxei.dev/schemas/
 ```
 
 ### Permission Errors
 ```bash
 # Re-run setup script
-cd ~/.local/share/gnome-shell/extensions/thinkpad-fan-control@example.com/
+cd ~/.local/share/gnome-shell/extensions/thinkpad-fan-control@noxei.dev/
 ./setup.sh
 
 # Verify sudo configuration
@@ -311,31 +311,42 @@ journalctl -u gdm -f
 gsettings reset-recursively org.gnome.shell.extensions.thinkpad-fan-control
 
 # Reinstall completely
-gnome-extensions uninstall thinkpad-fan-control@example.com
+gnome-extensions uninstall thinkpad-fan-control@noxei.dev
 ./install.sh
 ```
 
 ## 📝 Development History
 
-Its summer and this extension is a manual ThinkPad fan control solution:
+This extension evolved through several development phases, prioritizing safety:
 
-2. **Fan Control**: basic ThinkPad fans management
-3. **Safety Crisis**: Fixed dangerous pkexec system freezes
-4. **Slider Implementation**: Moved from discrete buttons to smooth slider
-5. **Safety Enhancement**: Removed dangerous disengaged access from UI
-6. **Current Version**: Safe, comprehensive fan control with emergency features
+1. **Initial Development** (v1.0): Basic ThinkPad fan control functionality
+2. **Safety Crisis Resolution**: Fixed dangerous pkexec system freezes
+3. **UI Enhancement**: Implemented smooth slider interface
+4. **Safety Hardening**: Removed dangerous disengaged access from UI
+5. **Current Version** (v2.0): Comprehensive safety features with emergency controls and professional packaging
 
 ## 🔗 Key Learnings
 
 - **Safety First**: Hardware control extensions must prioritize user safety
-- **System Integration**: Understanding hardware behavior is crucial (full-speed = disengaged)
+- **System Integration**: Understanding hardware behavior is crucial (full-speed ≠ disengaged)
 - **UI Design**: Sliders provide better control than discrete buttons
 - **Error Handling**: Robust error handling prevents system instability
 - **Documentation**: Clear safety warnings prevent user mistakes
+- **Professional Standards**: Proper versioning, documentation, and installation processes
 
 ## 📄 License
 
-GPL-3.0 License
+GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development guidelines and contribution process.
+
+## 📞 Support
+
+- **Issues**: [GitHub Issues](https://github.com/NoXei/Fan-Control-Slider/issues)
+- **Documentation**: This README and inline help
+- **Safety Questions**: Always prioritize thermal protection
 
 ## ⚠️ Disclaimer
 

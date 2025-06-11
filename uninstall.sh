@@ -5,7 +5,7 @@
 
 set -e  # Exit on any error
 
-EXTENSION_UUID="thinkpad-fan-control@example.com"
+EXTENSION_UUID="thinkpad-fan-control@noxei.dev"
 EXTENSION_DIR="$HOME/.local/share/gnome-shell/extensions/$EXTENSION_UUID"
 
 echo "🗑️  ThinkPad Fan Control Extension - Uninstall Script"

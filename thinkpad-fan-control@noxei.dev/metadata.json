@@ -1,0 +1,17 @@
+{
+  "uuid": "thinkpad-fan-control@noxei.dev",
+  "name": "ThinkPad Fan Control",
+  "description": "Safe slider-based ThinkPad fan control with real-time monitoring and comprehensive safety features",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48"
+  ],
+  "session-modes": [
+    "user"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.thinkpad-fan-control",
+  "url": "https://github.com/NoXei/Fan-Control-Slider",
+  "version": 2
+}
